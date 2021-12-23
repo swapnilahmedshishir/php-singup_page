@@ -1,0 +1,78 @@
+
+body{
+    margin: 0;
+    padding: 0;
+   background: url(image/rolling-hills-grassland-wilderness-sky-wallpaper-preview.jpg) no-repeat center fixed ;
+   background-size: cover;   
+   font-family: arial; 
+}
+.outerDiv{
+   border: 3px solid white ;
+   padding: 20px;
+   width: 400px;
+   height: 510px;
+   margin: 0 auto;
+   margin-top:40px;
+   
+}
+.innerDiv{
+    height:510px;
+    text-align: center;
+    background-color: white;
+    
+}
+
+h1{
+    padding-top:10px ;
+    margin-top:0;
+    text-align: center;
+    color: rgb(39, 113, 173);
+    text-transform: uppercase;
+}
+h5{
+    color: #0f5d8a;
+    margin:2px 0px ;
+    display:inline;
+   
+}
+ul{
+    padding-left:6px;
+    display:inline;
+    list-style-type: none;
+    
+}
+ul li{
+   
+    display: inline;
+    font-size:14px;
+
+}
+#genderId{
+    width: 25px;
+    
+}
+input {
+    box-sizing: border-box;
+    width:80% ;
+    background-color: rgb(208, 223, 236);
+    color: #349fe7;
+    padding: 10px 6px;
+    margin: 3px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+#checkBox{
+    width:17px;
+    display: inline-block;
+}
+#submit{
+    width: 110px;
+    display: inline;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 209px;
+    color:white;
+    background-color:fuchsia;
+    font-weight: bold;
+}
